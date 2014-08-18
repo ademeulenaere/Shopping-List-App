@@ -1,0 +1,59 @@
+html {
+	font-family: Helvetica;
+}
+
+body {
+	background-color: #d2efdb;
+	text-align: center;
+}
+
+.title {
+	background-color: #89bc84;
+	width: 100%;
+	padding: 3%;
+}
+
+h1 {
+	font-size: 40px;
+	font-style: italic;
+	color: white;
+}
+
+.instructions {
+	padding: 3%;
+}
+
+#first {
+	display: table;
+	/*Why is this not centering with text-align?*/
+	margin: auto;
+	font-size: 16px;
+	border: 2px solid grey;
+	border-radius: 15px;
+	padding: 8px;
+}
+
+#second {
+	display: table;
+	/*Why is this not centering with text-align?*/
+	margin: auto;
+	font-size: 16px;
+	border: 2px solid grey;
+	border-radius: 15px;
+	padding: 8px;
+}
+.entry-form {
+}
+
+#add {
+	border-radius: 15px;
+	border: none;
+	width: 45%;
+	height: 30px;
+	font-size: 15px;
+	text-align: center;
+	box-shadow: none;
+}
+
+
+
