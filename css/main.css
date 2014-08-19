@@ -24,7 +24,6 @@ h1 {
 
 #first {
 	display: table;
-	/*Why is this not centering with text-align?*/
 	margin: auto;
 	font-size: 16px;
 	border: 2px solid grey;
@@ -34,7 +33,6 @@ h1 {
 
 #second {
 	display: table;
-	/*Why is this not centering with text-align?*/
 	margin: 20px auto;
 	font-size: 16px;
 	border: 2px solid grey;
@@ -50,6 +48,7 @@ h1 {
 	width: 45%;
 	height: 30px;
 	font-size: 15px;
+	color: grey;
 	text-align: center;
 	box-shadow: none;
 }
@@ -58,3 +57,18 @@ h1 {
 	text-decoration: line-through;
 }
 
+.text {
+	display: table;
+	margin: 20px auto;
+	border-radius: 15px;
+	border: none;
+	background-color: #B0C4DE;
+	width: 30%;
+	height: 25px;
+	font-size: 20px;
+	font-family: "Brush Script MT", cursive;
+	text-align: center;
+	box-shadow: none;
+	margin-top: 17px;
+	padding-top: 8px;
+}

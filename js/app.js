@@ -5,14 +5,14 @@ $(document).ready(function() {
 		}
 	});
 
-	$('items').on('click', 'p', function(e) {
+	$('.items').on('click', 'p', function(e) {
 		$(this).toggleClass('strike');
+	}).on('dblclick', 'p', function(e) {
+		$(this).remove();
 	});
-
-	$(this).remove();
 })
 
 function postItem() {
 	var the_text = $('#add').val();
-	var the_item = $('.items').append('<p class="text">' + the_text + '</p>');
+	$('.items').append('<p class="text">' + the_text + '</p>');
 }
