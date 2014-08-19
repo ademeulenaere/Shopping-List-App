@@ -36,7 +36,7 @@ h1 {
 #second {
 	display: table;
 	/*Why is this not centering with text-align?*/
-	margin: auto;
+	margin: 20px auto;
 	font-size: 16px;
 	border: 2px solid grey;
 	border-radius: 15px;
