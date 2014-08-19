@@ -9,7 +9,6 @@ body {
 
 .title {
 	background-color: #89bc84;
-	width: 100%;
 	padding: 3%;
 }
 
@@ -55,5 +54,7 @@ h1 {
 	box-shadow: none;
 }
 
-
+.strike {
+	text-decoration: line-through;
+}
 
